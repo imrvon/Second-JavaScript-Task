@@ -29,7 +29,7 @@ Trust me, it could be worse.`
 
     if (country === "Nigeria" && height < 6) {
         alert(short_msg);
-    } else if (country === "Nigeria"  && height >= 6) {
+    } else if (country === "Nigeria" && height >= 6) {
         alert(tall_msg);
     } else {
         alert(new_msg);
