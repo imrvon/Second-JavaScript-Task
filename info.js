@@ -27,9 +27,9 @@ Short o. Tall o. E no matter.
 At least you're from ${country}, not Nigeria.
 Trust me, it could be worse.`
 
-    if (country === "Nigeria" && height < 6) {
+    if (country.toLowerCase === "Nigeria".toLowerCase && height < 6) {
         alert(short_msg);
-    } else if (country === "Nigeria" && height >= 6) {
+    } else if (country.toLowerCase === "Nigeria".toLowerCase && height >= 6) {
         alert(tall_msg);
     } else {
         alert(new_msg);
