@@ -1,5 +1,3 @@
-let name = "VoN"
-let height = 5.9;
-let country = "Nigeria"
-
-console.log(name + ' ' + height + ' ' + country);
+alert(`My name is Vincent,
+I am 5.9ft. tall.
+A citizen of Nigeria`);
